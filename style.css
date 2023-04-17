@@ -42,7 +42,7 @@ header .container {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
@@ -57,6 +57,19 @@ header .container ul a  {
     font-weight: 600;
     margin: 0 30px;
     color: #18B8F5;
+    
+}
+
+@media (min-width: 1500px){
+    
+
+    header .container{
+        width: 100%;
+    }
+    header .container ul a  {
+        font-size: 1.2em;
+    } 
+
     
 }
 
@@ -152,7 +165,9 @@ header ul li:hover::after{
         width: 100%;
         background-image: url("image/04.jpg");
         background-repeat: no-repeat;
-        background-position: top right; 
+        background-position: top right;
+        background-size: 60% 90%;
+        margin-left: 10%;
     }
 
     .piscine{
@@ -170,19 +185,19 @@ header ul li:hover::after{
 }
 
 .section1 h1 {
-    font-size: 8em;
+    font-size: 6.5em;
     color:#18B8F5;
     margin-bottom: 70px;
 }
 
 .section1 button {
     position: relative;
-    height: 70px;
-    width: 310px;
+    height: 60px;
+    width: 250px;
     border: 3px solid #18B8F5; 
     border-radius: 50px;
     background-color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'Alkatra', cursive;
     color: #18B8F5;
     z-index: 2;
@@ -193,8 +208,8 @@ header ul li:hover::after{
 .section1 button::before {
     content: "";
     position: absolute;
-    height: 70px;
-    width: 350px;
+    height: 60px;
+    width: 250px;
     background-color: #18B8F5;
     border-radius: 50px;
     top: -2px;
@@ -207,12 +222,12 @@ header ul li:hover::after{
 .section1 button:hover {
     color: white;
     transition: 0.3s;
-    width: 350px; 
+    width: 300px; 
 }
 .section1 button:hover::before, .section3 button:hover::before {
     transform: translate(0%);
     transition: 0.5s;
-    width: 350px;
+    width: 300px;
 }
 
 .section1 button i, .section3 button i{
@@ -447,8 +462,7 @@ header ul li:hover::after{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    margin-right: 200px;
+    justify-content: space-around;
 }
 
 .section3 h1{
@@ -511,7 +525,7 @@ header ul li:hover::after{
 
 .section3 .right img{
     width: 100%;
-    margin-right: 100px;
+    
 }
 
 @media (max-width: 1500px){
@@ -637,7 +651,7 @@ width: 1800px;
 
 /*-- Tarifs --*/
 .tarif {
-margin: 30px 150px;
+margin: 30px 60px;
 text-align: center;
 }
 
@@ -922,12 +936,12 @@ font-family: Calibri Light;
     color: #ffffff;
     padding: 1em;
     text-align: center;
-    height: 500px;
+    height: 400px;
 }
 
 .presentation h1{
-    margin-top: 250px;
-    font-size: 3em;
+    margin-top: 200px;
+    font-size: 2.5em;
     
 }
 
@@ -956,13 +970,13 @@ font-family: Calibri Light;
 }
 
 .but h2{
-    font-size: 5em;
+    font-size: 4em;
     
 }
 
 .but p{
     max-width: 700px;
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.8;
     font-weight: 400;
     font-family: 'Raleway', sans-serif;
@@ -984,7 +998,7 @@ font-family: Calibri Light;
 .staff{
     display:flex;
     flex-direction: column;
-    margin: 0 20% 0 20%;
+    margin: 0 12% 0 12%;
     margin-bottom: 50px;
      
     
@@ -995,6 +1009,7 @@ font-family: Calibri Light;
     justify-content: center;
     justify-content: space-around;
     margin-top: 15px;
+    align-items: center;
     
 }
 
@@ -1116,23 +1131,4 @@ font-family: Calibri Light;
 
 }
 
-.imed{
-    font-size: 100px;
-    margin-left: 800px;
-    color: blue;
-}
-
-.manel{
-    font-size: 100px;
-    margin-left: 800px;
-    color: orange;
-}
-
 /*-- Aperçu --*/
-
-.container{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
