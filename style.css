@@ -19,7 +19,7 @@ button {
 
 body {
     overflow-x: hidden;
-    max-width: 1920px;
+    
 }
 
 /*-- Header --*/
@@ -662,6 +662,7 @@ display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
 margin: 50px -10px;
+align-items: center;
 }
 
 .tarif .tleft1,
