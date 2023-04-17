@@ -19,13 +19,14 @@ button {
 
 body {
     overflow-x: hidden;
-    max-width: 1920px;
 }
+
+
 
 /*-- Header --*/
 
 header {
-    height: 120px;
+    height: 15%;
     width: 100%;
     top: 0;
     left: 0;
@@ -34,9 +35,9 @@ header {
 
 
 header .container {
-    width: 1500px; 
+     
     height: 100%; 
-    margin: 0 auto;
+    
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -151,7 +152,6 @@ header ul li:hover::after{
         background-image: url("image/04.jpg");
         background-repeat: no-repeat;
         background-position: top right; 
-        background-size: 900px 800px;
     }
 
     .piscine{
@@ -268,7 +268,6 @@ header ul li:hover::after{
     position: absolute;
     width: 100%;
     height: 400px;
-    max-width: 1918px;
     z-index: 3;
 }
 
@@ -287,7 +286,7 @@ header ul li:hover::after{
 }
 
 .section2 .container{
-    max-width: 1500px;
+    
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -420,7 +419,6 @@ header ul li:hover::after{
     position: relative;
     width: 100%;
     height: 400px;
-    max-width: 1918px;
     z-index: 3;
     margin-bottom: -10px;
 }
