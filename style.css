@@ -17,7 +17,7 @@ button {
 
 body {
     overflow-x: hidden;
-    min-width: 303px;
+    
 }
 
 
@@ -75,6 +75,7 @@ header .container ul a  {
     .home header {
         background-color: #18B8F5;
         position: relative;
+        
         
     }
 
