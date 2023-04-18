@@ -97,6 +97,11 @@ header .container ul a  {
         bottom: -10px;
         transition: 0.5s;
     }
+
+    header .container .logo_inv{
+        display: none;
+    }
+
 }
 
 @media (max-width: 750px){
