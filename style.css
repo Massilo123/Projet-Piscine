@@ -106,9 +106,11 @@ header .container ul a  {
 
     header .container {
         justify-content: center;
+        height: 40px;
     }
     header .container ul a  {
         margin: 0 20px;
+        font-size: 0.9em;
     }
 }
 
