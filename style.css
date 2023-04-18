@@ -17,7 +17,7 @@ button {
 
 body {
     overflow-x: hidden;
-    width: 105%;
+    min-width: 303px;
 }
 
 
@@ -688,7 +688,6 @@ width: 1800px;
 .tarif {
 margin: 30px 60px;
 text-align: center;
-margin-right: 150px;
 }
 
 .tarif .container {
@@ -788,11 +787,6 @@ font-family: 'Taviraj', serif;
 
 @media (max-width: 1250px) {
     
-    .tarif{
-        
-
-        margin: 0 100px 0 10px;
-    }
     .tarif .container {
     display: block;
     
