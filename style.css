@@ -715,7 +715,7 @@ text-align: left;
 .tarif .ttop h2 {
 font-size: 2.5em;
 margin-bottom: 10px;
-font-family: 'Aboreto', cursive;
+font-family: 'Lobster', cursive;
 font-weight: 500;
 
 }
@@ -764,7 +764,7 @@ margin-top: 20px;
 font-size: 3em;
 font-weight: 50;
 margin-bottom: 10px;
-font-family: Calibri Light;
+font-family: 'Taviraj', serif; 
 
 }
 
@@ -779,7 +779,7 @@ font-family: Calibri Light;
 @media (max-width: 1250px) {
     
     .tarif{
-        margin:50px 50px;
+        margin:35px 35px;
     }
     .tarif .container {
     display: block;
@@ -855,7 +855,7 @@ font-family: Calibri Light;
     z-index: 2;
     overflow: hidden;
     margin-top: 20px;
-    font-family: 'Alkatra', cursive;
+    font-family: 'Lobster', cursive;
     transition: 0.3s;
     
 }
