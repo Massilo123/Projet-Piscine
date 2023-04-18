@@ -117,6 +117,10 @@ header .container ul a  {
         margin: 0 20px;
         font-size: 0.9em;
     }
+
+    header .container .logo_inv{
+        display: none;
+    }
 }
 
 header ul li{
