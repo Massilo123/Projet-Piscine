@@ -4,7 +4,6 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    
 }
 
 h1,
@@ -1150,6 +1149,10 @@ font-family: 'Taviraj', serif;
         margin-top: -30px;
     }
 
+}
+
+html{
+    width:100%;
 }
 
 /*-- Aperçu --*/
