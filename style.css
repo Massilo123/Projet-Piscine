@@ -655,6 +655,23 @@ width: 1800px;
     transition: 0.4s;
 }
 
+@media (max-width: 850px) {
+    .information h1{
+        font-size: 3em;
+    }
+
+    .paragraphe .email{
+        font-size: 1.1em;
+    }
+
+    .paragraphe {
+    
+        margin: 0 9% 0 9%;
+    }
+}
+
+
+
 
 
 
@@ -662,21 +679,6 @@ width: 1800px;
 .tarif {
 margin: 30px 60px;
 text-align: center;
-}
-
-.tarif h1 {
-font-size: 3.5em;
-margin-bottom: 30PX;
-color: #0d88ec;
-text-shadow:#e7f6ff 0 -1px 0,
-#00abf0 1px 1px 0,
-#0096e4 2px 2px 0,
-#0095ff 3px 3px 0,
-#006392 4px 4px 0,
-#00485b 5px 5px 0,
-#333 5px 5px 10px;color:#18cdf5;
-
-
 }
 
 .tarif .container {
@@ -713,7 +715,7 @@ text-align: left;
 .tarif .ttop h2 {
 font-size: 2.5em;
 margin-bottom: 10px;
-font-family: 'Alkatra', cursive;
+font-family: 'Aboreto', cursive;
 font-weight: 500;
 
 }
@@ -743,7 +745,7 @@ margin: 10px 0;
 .tarif dl dd {
 width: 50%;
 margin-bottom: 5px;
-font-family: 'Alkatra', cursive;
+font-family: 'Taviraj', serif;
 }
 
 
@@ -751,7 +753,7 @@ font-family: 'Alkatra', cursive;
 .tarif p {
 font-weight: bold;
 font-size: 1.1em;
-font-family: 'Alkatra', cursive;
+font-family: 'Taviraj', serif;
 }
 
 .tarif .prix {
