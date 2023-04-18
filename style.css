@@ -789,9 +789,9 @@ font-family: 'Taviraj', serif;
 @media (max-width: 1250px) {
     
     .tarif{
-        margin:35px 35px;
+        
 
-        margin-right: 70px;
+        margin: 0 50px 0 10px;
     }
     .tarif .container {
     display: block;
