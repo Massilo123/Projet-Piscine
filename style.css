@@ -688,6 +688,7 @@ width: 1800px;
 .tarif {
 margin: 30px 60px;
 text-align: center;
+margin-right: 150px;
 }
 
 .tarif .container {
@@ -789,6 +790,8 @@ font-family: 'Taviraj', serif;
     
     .tarif{
         margin:35px 35px;
+
+        margin-right: 70px;
     }
     .tarif .container {
     display: block;
