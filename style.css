@@ -114,8 +114,9 @@ header .container ul a  {
         height: 50px;
     }
     header .container ul a  {
-        margin: 0 20px;
+        text-align: center;
         font-size: 0.9em;
+        margin: 0 12px;
     }
 
     header .container .logo_inv{
