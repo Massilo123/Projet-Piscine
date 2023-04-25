@@ -254,17 +254,9 @@ header ul li:hover::after{
 
 @media (max-width: 950px){
     .section1 h1 {
-        font-size: 6em;
+        font-size: 4em;
         margin-bottom: 60px;
     }
-}
-
-@media (max-width: 500px){
-    .section1 h1 {
-        font-size: 2em;
-        margin-bottom: 60px;
-    }
-
 }
 
 
