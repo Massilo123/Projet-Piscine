@@ -30,7 +30,7 @@ header {
     top: 0;
     left: 0;
     position: absolute;
-    border-radius: 0 0 100px 100px;
+    border-radius: 0 0 30px 30px;
 }
 
 
@@ -688,7 +688,7 @@ text-align: center;
 
 .nostarifs {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 4em;
     margin-top: 30px;
     font-family: 'Lobster Two', cursive;
 }
