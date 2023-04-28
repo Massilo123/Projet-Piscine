@@ -659,7 +659,7 @@ width: 1800px;
     transition: 0.4s;
 }
 
-.presentationc{
+.contact .nous-contacter .presentationc{
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/pool.jpg);
     background-position: center;
