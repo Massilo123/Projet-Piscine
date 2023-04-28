@@ -594,11 +594,10 @@ header ul li:hover::after{
     height: 100%;
 }
 
-.information h1{
+.presentationc h1{
     font-size: 4em;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color: #079cba;
+    margin-top: 170px;
+    
     
 }
 
@@ -660,8 +659,19 @@ width: 1800px;
     transition: 0.4s;
 }
 
+.presentationc{
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/pool.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    height: 400px;
+}
+
 @media (max-width: 850px) {
-    .information h1{
+    .presentationc h1{
         font-size: 3em;
     }
 
@@ -674,6 +684,7 @@ width: 1800px;
         margin: 0 9% 0 9%;
     }
 }
+
 
 
 
