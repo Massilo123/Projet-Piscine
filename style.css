@@ -582,10 +582,14 @@ header ul li:hover::after{
 /*-- Nous contacter --*/
 
 .information{
-    height: 1080px; 
+    height: 600px;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: url('wave.svg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    z-index: -3;
 
 }
 
@@ -609,6 +613,11 @@ header ul li:hover::after{
     margin-top: 20px;
     font-size: 1.3em;
     font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.coordonée{
+    margin-top: 50px;
 }
 
 label{
@@ -684,6 +693,8 @@ width: 1800px;
         margin: 0 9% 0 9%;
     }
 }
+
+
 
 
 
