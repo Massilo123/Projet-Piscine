@@ -582,7 +582,6 @@ header ul li:hover::after{
 /*-- Nous contacter --*/
 
 .information{
-    height: 600px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -617,35 +616,7 @@ header ul li:hover::after{
 }
 
 .coordonée{
-    margin-top: 50px;
-}
-
-label{
-    display:block;
-}
-
-.form-group {
-    max-width: 800px;
-    margin: 2rem auto;
-}
-
-.form-control {
-    font-size: 1.1em;
-}
-
-legend {
-    font-size: 1.75em;
-    font-weight: 500;
-}
-
-.form-group input {
-    width: 40%;
-    margin-bottom: 10px;
-}
-
-.bg img{
-display: absolute;
-width: 1800px;
+    margin: 30px 0 50px 0;
 }
 .paragraphe a:hover {
     background-color: #079cba;
@@ -685,7 +656,7 @@ width: 1800px;
     }
 
     .paragraphe .email{
-        font-size: 1.1em;
+        font-size: 1em;
     }
 
     .paragraphe {
